@@ -15,6 +15,7 @@ from torch.utils.data import Dataset
 class CIFAR100Train(Dataset):
     """cifar100 test dataset, derived from
     torch.utils.data.DataSet
+    hehe
     """
 
     def __init__(self, path, transform=None):
