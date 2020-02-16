@@ -41,6 +41,7 @@ class CIFAR100Train(Dataset):
 class CIFAR100Test(Dataset):
     """cifar100 test dataset, derived from
     torch.utils.data.DataSet
+    b2=123
     """
 
     def __init__(self, path, transform=None):
